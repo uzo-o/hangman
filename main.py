@@ -40,7 +40,7 @@ def reminders(answers):
   global losses
   print(f'You have {strikes} strikes remaining.')
   print(f'The current word is: {answers}')
-  if letter != 0 or wins+losses > 0:
+  if letter == True or wins+losses > 0:
     time.sleep(2)
   else:
     time.sleep(5)
@@ -100,7 +100,7 @@ characters = list(word)
 answers = []
 for i in characters:
   answers.append("_")
-letter = '0'
+letter = False
 
 wins = 0
 losses = 0
@@ -117,6 +117,7 @@ while True:
     reminders(answers)
     clearScreen()
     userEntry(letter,characters)
+    letter = True
   if done == True:
     outcome = input("a) play again\nb) exit\n").lower().strip()
     outcomes = ["a","b"]
@@ -130,7 +131,7 @@ while True:
       answers = []
       for i in characters:
         answers.append("_")
-      letter = '0'
+      letter = False
       done = False
     elif outcome == "b":
       sys.exit()
