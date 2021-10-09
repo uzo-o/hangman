@@ -1,6 +1,6 @@
 # Hangman
-an iteration of the classic game hangman
-<br/>![screenshot of hangman gameplay](https://live.staticflickr.com/65535/51569538593_f29657e891.jpg)
+![screenshot of hangman gameplay](https://live.staticflickr.com/65535/51569538593_f29657e891.jpg)
+<br/>an iteration of the classic game hangman
 
 ## Description
 This project lets you play hangman and keep track of your win/loss metrics as you go.
