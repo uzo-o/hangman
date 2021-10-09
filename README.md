@@ -1,5 +1,5 @@
 # Hangman
-an iteration of the classic game hangman
+an iteration of the classic game hangman\n
 ![screenshot of hangman gameplay](https://live.staticflickr.com/65535/51569538593_f29657e891.jpg)
 
 ## Description
